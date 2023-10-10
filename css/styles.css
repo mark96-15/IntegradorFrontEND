@@ -1,0 +1,34 @@
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.confBsAs {
+    position: absolute;
+    bottom: 2vh;
+    right: 24vh;
+}
+
+.codo {
+    width: 15%;
+}
+
+#main-footer {
+
+    background: #1d3c4e;
+    color: #fff;
+    padding: 1.5rem;
+
+}
+
+#main-footer .nav-link {
+    color: #fff;
+    text-align: center;
+  }
+
+#main-footer .nav-link:hover { opacity: .7; }
+
+@media (min-width: 992px) {
+    #main-footer .nav-link span { display: block; }
+  }
